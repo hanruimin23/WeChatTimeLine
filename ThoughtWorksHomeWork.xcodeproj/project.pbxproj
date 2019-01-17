@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		502C5F63E395EB1384D0A680 /* libPods-ThoughtWorksHomeWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9A5A27BC0F2DED9FE031A6 /* libPods-ThoughtWorksHomeWork.a */; };
+		6999063257E04816F18381A1 /* libPods-ThoughtWorksHomeWorkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E5691F494CAC226AC4EE31 /* libPods-ThoughtWorksHomeWorkUITests.a */; };
+		8C2CA6E121E9B0A10035A29D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CA6E021E9B0A10035A29D /* AppDelegate.m */; };
+		8C2CA6E721E9B0A10035A29D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2CA6E521E9B0A10035A29D /* Main.storyboard */; };
+		8C2CA6E921E9B0A10035A29D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2CA6E821E9B0A10035A29D /* Assets.xcassets */; };
+		8C2CA6EC21E9B0A10035A29D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2CA6EA21E9B0A10035A29D /* LaunchScreen.storyboard */; };
+		8C2CA6EF21E9B0A10035A29D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CA6EE21E9B0A10035A29D /* main.m */; };
+		8C2CA6F921E9B0A10035A29D /* ThoughtWorksHomeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CA6F821E9B0A10035A29D /* ThoughtWorksHomeWorkTests.m */; };
+		8C2CA70421E9B0A10035A29D /* ThoughtWorksHomeWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CA70321E9B0A10035A29D /* ThoughtWorksHomeWorkUITests.m */; };
+		8C681F9F21EAFB94002417AB /* TWDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681F9E21EAFB94002417AB /* TWDownloader.m */; };
+		8C681FA021EAFB94002417AB /* TWDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681F9E21EAFB94002417AB /* TWDownloader.m */; };
+		8C681FA121EAFB94002417AB /* TWDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681F9E21EAFB94002417AB /* TWDownloader.m */; };
+		8C681FA421EAFDEE002417AB /* TWImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FA321EAFDEE002417AB /* TWImageManager.m */; };
+		8C681FA521EAFDEE002417AB /* TWImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FA321EAFDEE002417AB /* TWImageManager.m */; };
+		8C681FA621EAFDEE002417AB /* TWImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FA321EAFDEE002417AB /* TWImageManager.m */; };
+		8C681FA921EB0BBE002417AB /* UIImageView+TWWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FA821EB0BBE002417AB /* UIImageView+TWWebCache.m */; };
+		8C681FAA21EB0BBE002417AB /* UIImageView+TWWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FA821EB0BBE002417AB /* UIImageView+TWWebCache.m */; };
+		8C681FAB21EB0BBE002417AB /* UIImageView+TWWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FA821EB0BBE002417AB /* UIImageView+TWWebCache.m */; };
+		8C681FAF21EB11F5002417AB /* TWMomentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FAE21EB11F5002417AB /* TWMomentsController.m */; };
+		8C681FB021EB11F5002417AB /* TWMomentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FAE21EB11F5002417AB /* TWMomentsController.m */; };
+		8C681FB121EB11F5002417AB /* TWMomentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FAE21EB11F5002417AB /* TWMomentsController.m */; };
+		8C681FB521EB2268002417AB /* TWRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FB421EB2268002417AB /* TWRequestManager.m */; };
+		8C681FB621EB2268002417AB /* TWRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FB421EB2268002417AB /* TWRequestManager.m */; };
+		8C681FB721EB2268002417AB /* TWRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FB421EB2268002417AB /* TWRequestManager.m */; };
+		8C681FBD21EB2526002417AB /* TWMomentsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FBC21EB2526002417AB /* TWMomentsViewModel.m */; };
+		8C681FBE21EB2526002417AB /* TWMomentsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FBC21EB2526002417AB /* TWMomentsViewModel.m */; };
+		8C681FBF21EB2526002417AB /* TWMomentsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FBC21EB2526002417AB /* TWMomentsViewModel.m */; };
+		8C681FC221EB2707002417AB /* TWSenderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FC121EB2707002417AB /* TWSenderModel.m */; };
+		8C681FC321EB2707002417AB /* TWSenderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FC121EB2707002417AB /* TWSenderModel.m */; };
+		8C681FC421EB2707002417AB /* TWSenderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FC121EB2707002417AB /* TWSenderModel.m */; };
+		8C681FC721EB27D0002417AB /* TWCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FC621EB27D0002417AB /* TWCommentModel.m */; };
+		8C681FC821EB27D0002417AB /* TWCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FC621EB27D0002417AB /* TWCommentModel.m */; };
+		8C681FC921EB27D0002417AB /* TWCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FC621EB27D0002417AB /* TWCommentModel.m */; };
+		8C681FCC21EB2809002417AB /* TWTweetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FCB21EB2809002417AB /* TWTweetModel.m */; };
+		8C681FCD21EB2809002417AB /* TWTweetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FCB21EB2809002417AB /* TWTweetModel.m */; };
+		8C681FCE21EB2809002417AB /* TWTweetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FCB21EB2809002417AB /* TWTweetModel.m */; };
+		8C681FD121EB2855002417AB /* TWUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FD021EB2855002417AB /* TWUserInfoModel.m */; };
+		8C681FD221EB2855002417AB /* TWUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FD021EB2855002417AB /* TWUserInfoModel.m */; };
+		8C681FD321EB2855002417AB /* TWUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FD021EB2855002417AB /* TWUserInfoModel.m */; };
+		8C681FDB21EB2E2B002417AB /* TWCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FDA21EB2E2B002417AB /* TWCommentCell.m */; };
+		8C681FDC21EB2E2B002417AB /* TWCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FDA21EB2E2B002417AB /* TWCommentCell.m */; };
+		8C681FDD21EB2E2B002417AB /* TWCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FDA21EB2E2B002417AB /* TWCommentCell.m */; };
+		8C681FE021EB3164002417AB /* TWCommentGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FDF21EB3164002417AB /* TWCommentGroundView.m */; };
+		8C681FE121EB3164002417AB /* TWCommentGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FDF21EB3164002417AB /* TWCommentGroundView.m */; };
+		8C681FE221EB3164002417AB /* TWCommentGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FDF21EB3164002417AB /* TWCommentGroundView.m */; };
+		8C681FE521EB3379002417AB /* TWTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FE421EB3379002417AB /* TWTweetCell.m */; };
+		8C681FE621EB3379002417AB /* TWTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FE421EB3379002417AB /* TWTweetCell.m */; };
+		8C681FE721EB3379002417AB /* TWTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C681FE421EB3379002417AB /* TWTweetCell.m */; };
+		8CA2977721E9DCFE006B5B67 /* TWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2977621E9DCFE006B5B67 /* TWTabBarController.m */; };
+		8CA2977821E9DCFE006B5B67 /* TWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2977621E9DCFE006B5B67 /* TWTabBarController.m */; };
+		8CA2977921E9DCFE006B5B67 /* TWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2977621E9DCFE006B5B67 /* TWTabBarController.m */; };
+		8CA2977D21E9DEF2006B5B67 /* TWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2977C21E9DEF2006B5B67 /* TWNavigationController.m */; };
+		8CA2977E21E9DEF2006B5B67 /* TWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2977C21E9DEF2006B5B67 /* TWNavigationController.m */; };
+		8CA2977F21E9DEF2006B5B67 /* TWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2977C21E9DEF2006B5B67 /* TWNavigationController.m */; };
+		8CA2978321E9E5ED006B5B67 /* TWMessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2978221E9E5ED006B5B67 /* TWMessagesController.m */; };
+		8CA2978421E9E5ED006B5B67 /* TWMessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2978221E9E5ED006B5B67 /* TWMessagesController.m */; };
+		8CA2978521E9E5ED006B5B67 /* TWMessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2978221E9E5ED006B5B67 /* TWMessagesController.m */; };
+		8CA2978821E9E601006B5B67 /* TWContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2978721E9E601006B5B67 /* TWContactsController.m */; };
+		8CA2978921E9E601006B5B67 /* TWContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2978721E9E601006B5B67 /* TWContactsController.m */; };
+		8CA2978A21E9E601006B5B67 /* TWContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2978721E9E601006B5B67 /* TWContactsController.m */; };
+		8CA2978D21E9E614006B5B67 /* TWDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2978C21E9E614006B5B67 /* TWDiscoverController.m */; };
+		8CA2978E21E9E614006B5B67 /* TWDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2978C21E9E614006B5B67 /* TWDiscoverController.m */; };
+		8CA2978F21E9E614006B5B67 /* TWDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2978C21E9E614006B5B67 /* TWDiscoverController.m */; };
+		8CA2979221E9E623006B5B67 /* TMMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2979121E9E623006B5B67 /* TMMeController.m */; };
+		8CA2979321E9E623006B5B67 /* TMMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2979121E9E623006B5B67 /* TMMeController.m */; };
+		8CA2979421E9E623006B5B67 /* TMMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2979121E9E623006B5B67 /* TMMeController.m */; };
+		8CA2979A21E9FB0B006B5B67 /* TWDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2979921E9FB0B006B5B67 /* TWDownloadOperation.m */; };
+		8CA2979B21E9FB0B006B5B67 /* TWDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2979921E9FB0B006B5B67 /* TWDownloadOperation.m */; };
+		8CA2979C21E9FB0B006B5B67 /* TWDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2979921E9FB0B006B5B67 /* TWDownloadOperation.m */; };
+		8CA297AE21EA3571006B5B67 /* UIView+TWCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA297AD21EA3571006B5B67 /* UIView+TWCacheOperation.m */; };
+		8CA297AF21EA3571006B5B67 /* UIView+TWCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA297AD21EA3571006B5B67 /* UIView+TWCacheOperation.m */; };
+		8CA297B021EA3571006B5B67 /* UIView+TWCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA297AD21EA3571006B5B67 /* UIView+TWCacheOperation.m */; };
+		A0C6679C93D063FAE82E62D9 /* libPods-ThoughtWorksHomeWorkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE811786BB329C49C5D3CB59 /* libPods-ThoughtWorksHomeWorkTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C2CA6F521E9B0A10035A29D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2CA6D421E9B0A10035A29D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2CA6DB21E9B0A10035A29D;
+			remoteInfo = ThoughtWorksHomeWork;
+		};
+		8C2CA70021E9B0A10035A29D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2CA6D421E9B0A10035A29D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2CA6DB21E9B0A10035A29D;
+			remoteInfo = ThoughtWorksHomeWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0874F383A7F15A758FC39D08 /* Pods-ThoughtWorksHomeWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWorksHomeWorkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWorksHomeWorkTests/Pods-ThoughtWorksHomeWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A4D4B6BFD7197C66D3F4136 /* Pods-ThoughtWorksHomeWorkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWorksHomeWorkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWorksHomeWorkUITests/Pods-ThoughtWorksHomeWorkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3389B9E5D001CD61FD3D3982 /* Pods-ThoughtWorksHomeWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWorksHomeWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWorksHomeWork/Pods-ThoughtWorksHomeWork.debug.xcconfig"; sourceTree = "<group>"; };
+		35AA4F812A7F973F28D066D0 /* Pods-ThoughtWorksHomeWorkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWorksHomeWorkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWorksHomeWorkUITests/Pods-ThoughtWorksHomeWorkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E9A5A27BC0F2DED9FE031A6 /* libPods-ThoughtWorksHomeWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThoughtWorksHomeWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2CA6DC21E9B0A10035A29D /* ThoughtWorksHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThoughtWorksHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2CA6DF21E9B0A10035A29D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C2CA6E021E9B0A10035A29D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C2CA6E621E9B0A10035A29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C2CA6E821E9B0A10035A29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C2CA6EB21E9B0A10035A29D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C2CA6ED21E9B0A10035A29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2CA6EE21E9B0A10035A29D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C2CA6F421E9B0A10035A29D /* ThoughtWorksHomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoughtWorksHomeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2CA6F821E9B0A10035A29D /* ThoughtWorksHomeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThoughtWorksHomeWorkTests.m; sourceTree = "<group>"; };
+		8C2CA6FA21E9B0A10035A29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2CA6FF21E9B0A10035A29D /* ThoughtWorksHomeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoughtWorksHomeWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2CA70321E9B0A10035A29D /* ThoughtWorksHomeWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThoughtWorksHomeWorkUITests.m; sourceTree = "<group>"; };
+		8C2CA70521E9B0A10035A29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C681F9D21EAFB94002417AB /* TWDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWDownloader.h; sourceTree = "<group>"; };
+		8C681F9E21EAFB94002417AB /* TWDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWDownloader.m; sourceTree = "<group>"; };
+		8C681FA221EAFDEE002417AB /* TWImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImageManager.h; sourceTree = "<group>"; };
+		8C681FA321EAFDEE002417AB /* TWImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImageManager.m; sourceTree = "<group>"; };
+		8C681FA721EB0BBE002417AB /* UIImageView+TWWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TWWebCache.h"; sourceTree = "<group>"; };
+		8C681FA821EB0BBE002417AB /* UIImageView+TWWebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TWWebCache.m"; sourceTree = "<group>"; };
+		8C681FAD21EB11F5002417AB /* TWMomentsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWMomentsController.h; sourceTree = "<group>"; };
+		8C681FAE21EB11F5002417AB /* TWMomentsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWMomentsController.m; sourceTree = "<group>"; };
+		8C681FB321EB2268002417AB /* TWRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWRequestManager.h; sourceTree = "<group>"; };
+		8C681FB421EB2268002417AB /* TWRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWRequestManager.m; sourceTree = "<group>"; };
+		8C681FBB21EB2526002417AB /* TWMomentsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWMomentsViewModel.h; sourceTree = "<group>"; };
+		8C681FBC21EB2526002417AB /* TWMomentsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWMomentsViewModel.m; sourceTree = "<group>"; };
+		8C681FC021EB2707002417AB /* TWSenderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWSenderModel.h; sourceTree = "<group>"; };
+		8C681FC121EB2707002417AB /* TWSenderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWSenderModel.m; sourceTree = "<group>"; };
+		8C681FC521EB27D0002417AB /* TWCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCommentModel.h; sourceTree = "<group>"; };
+		8C681FC621EB27D0002417AB /* TWCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWCommentModel.m; sourceTree = "<group>"; };
+		8C681FCA21EB2809002417AB /* TWTweetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTweetModel.h; sourceTree = "<group>"; };
+		8C681FCB21EB2809002417AB /* TWTweetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTweetModel.m; sourceTree = "<group>"; };
+		8C681FCF21EB2855002417AB /* TWUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWUserInfoModel.h; sourceTree = "<group>"; };
+		8C681FD021EB2855002417AB /* TWUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWUserInfoModel.m; sourceTree = "<group>"; };
+		8C681FD921EB2E2B002417AB /* TWCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCommentCell.h; sourceTree = "<group>"; };
+		8C681FDA21EB2E2B002417AB /* TWCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWCommentCell.m; sourceTree = "<group>"; };
+		8C681FDE21EB3164002417AB /* TWCommentGroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCommentGroundView.h; sourceTree = "<group>"; };
+		8C681FDF21EB3164002417AB /* TWCommentGroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWCommentGroundView.m; sourceTree = "<group>"; };
+		8C681FE321EB3379002417AB /* TWTweetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTweetCell.h; sourceTree = "<group>"; };
+		8C681FE421EB3379002417AB /* TWTweetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTweetCell.m; sourceTree = "<group>"; };
+		8CA2977521E9DCFE006B5B67 /* TWTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTabBarController.h; sourceTree = "<group>"; };
+		8CA2977621E9DCFE006B5B67 /* TWTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTabBarController.m; sourceTree = "<group>"; };
+		8CA2977B21E9DEF2006B5B67 /* TWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWNavigationController.h; sourceTree = "<group>"; };
+		8CA2977C21E9DEF2006B5B67 /* TWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWNavigationController.m; sourceTree = "<group>"; };
+		8CA2978121E9E5ED006B5B67 /* TWMessagesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWMessagesController.h; sourceTree = "<group>"; };
+		8CA2978221E9E5ED006B5B67 /* TWMessagesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWMessagesController.m; sourceTree = "<group>"; };
+		8CA2978621E9E601006B5B67 /* TWContactsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWContactsController.h; sourceTree = "<group>"; };
+		8CA2978721E9E601006B5B67 /* TWContactsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWContactsController.m; sourceTree = "<group>"; };
+		8CA2978B21E9E614006B5B67 /* TWDiscoverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWDiscoverController.h; sourceTree = "<group>"; };
+		8CA2978C21E9E614006B5B67 /* TWDiscoverController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWDiscoverController.m; sourceTree = "<group>"; };
+		8CA2979021E9E623006B5B67 /* TMMeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMMeController.h; sourceTree = "<group>"; };
+		8CA2979121E9E623006B5B67 /* TMMeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMMeController.m; sourceTree = "<group>"; };
+		8CA2979621E9F091006B5B67 /* TWMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWMacros.h; sourceTree = "<group>"; };
+		8CA2979821E9FB0B006B5B67 /* TWDownloadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWDownloadOperation.h; sourceTree = "<group>"; };
+		8CA2979921E9FB0B006B5B67 /* TWDownloadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWDownloadOperation.m; sourceTree = "<group>"; };
+		8CA297AC21EA3571006B5B67 /* UIView+TWCacheOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TWCacheOperation.h"; sourceTree = "<group>"; };
+		8CA297AD21EA3571006B5B67 /* UIView+TWCacheOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TWCacheOperation.m"; sourceTree = "<group>"; };
+		AE811786BB329C49C5D3CB59 /* libPods-ThoughtWorksHomeWorkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThoughtWorksHomeWorkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B4389443C88D308C41D8EC /* Pods-ThoughtWorksHomeWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWorksHomeWorkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWorksHomeWorkTests/Pods-ThoughtWorksHomeWorkTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9E5691F494CAC226AC4EE31 /* libPods-ThoughtWorksHomeWorkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThoughtWorksHomeWorkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E784C5D0377B1ADDB8E9FA08 /* Pods-ThoughtWorksHomeWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtWorksHomeWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtWorksHomeWork/Pods-ThoughtWorksHomeWork.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2CA6D921E9B0A10035A29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502C5F63E395EB1384D0A680 /* libPods-ThoughtWorksHomeWork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2CA6F121E9B0A10035A29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C6679C93D063FAE82E62D9 /* libPods-ThoughtWorksHomeWorkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2CA6FC21E9B0A10035A29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6999063257E04816F18381A1 /* libPods-ThoughtWorksHomeWorkUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		868DC8AB4B0A02A69FDFBB09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3389B9E5D001CD61FD3D3982 /* Pods-ThoughtWorksHomeWork.debug.xcconfig */,
+				E784C5D0377B1ADDB8E9FA08 /* Pods-ThoughtWorksHomeWork.release.xcconfig */,
+				0874F383A7F15A758FC39D08 /* Pods-ThoughtWorksHomeWorkTests.debug.xcconfig */,
+				C1B4389443C88D308C41D8EC /* Pods-ThoughtWorksHomeWorkTests.release.xcconfig */,
+				0A4D4B6BFD7197C66D3F4136 /* Pods-ThoughtWorksHomeWorkUITests.debug.xcconfig */,
+				35AA4F812A7F973F28D066D0 /* Pods-ThoughtWorksHomeWorkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C2CA6D321E9B0A10035A29D = {
+			isa = PBXGroup;
+			children = (
+				8C2CA6DE21E9B0A10035A29D /* ThoughtWorksHomeWork */,
+				8C2CA6F721E9B0A10035A29D /* ThoughtWorksHomeWorkTests */,
+				8C2CA70221E9B0A10035A29D /* ThoughtWorksHomeWorkUITests */,
+				8C2CA6DD21E9B0A10035A29D /* Products */,
+				868DC8AB4B0A02A69FDFBB09 /* Pods */,
+				A2FA1EA9C6F4E9D87B86AF53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2CA6DD21E9B0A10035A29D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2CA6DC21E9B0A10035A29D /* ThoughtWorksHomeWork.app */,
+				8C2CA6F421E9B0A10035A29D /* ThoughtWorksHomeWorkTests.xctest */,
+				8C2CA6FF21E9B0A10035A29D /* ThoughtWorksHomeWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2CA6DE21E9B0A10035A29D /* ThoughtWorksHomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2979721E9FAAE006B5B67 /* TWWebImage */,
+				8CA2979521E9F067006B5B67 /* Macros */,
+				8CA2977A21E9DEAC006B5B67 /* TWBase */,
+				8CA2976F21E9D70C006B5B67 /* Business */,
+				8C2CA6DF21E9B0A10035A29D /* AppDelegate.h */,
+				8C2CA6E021E9B0A10035A29D /* AppDelegate.m */,
+				8C2CA6E521E9B0A10035A29D /* Main.storyboard */,
+				8C2CA6E821E9B0A10035A29D /* Assets.xcassets */,
+				8C2CA6EA21E9B0A10035A29D /* LaunchScreen.storyboard */,
+				8C2CA6ED21E9B0A10035A29D /* Info.plist */,
+				8C2CA6EE21E9B0A10035A29D /* main.m */,
+			);
+			path = ThoughtWorksHomeWork;
+			sourceTree = "<group>";
+		};
+		8C2CA6F721E9B0A10035A29D /* ThoughtWorksHomeWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2CA6F821E9B0A10035A29D /* ThoughtWorksHomeWorkTests.m */,
+				8C2CA6FA21E9B0A10035A29D /* Info.plist */,
+			);
+			path = ThoughtWorksHomeWorkTests;
+			sourceTree = "<group>";
+		};
+		8C2CA70221E9B0A10035A29D /* ThoughtWorksHomeWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2CA70321E9B0A10035A29D /* ThoughtWorksHomeWorkUITests.m */,
+				8C2CA70521E9B0A10035A29D /* Info.plist */,
+			);
+			path = ThoughtWorksHomeWorkUITests;
+			sourceTree = "<group>";
+		};
+		8C681FAC21EB11C9002417AB /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				8C681FAD21EB11F5002417AB /* TWMomentsController.h */,
+				8C681FAE21EB11F5002417AB /* TWMomentsController.m */,
+				8C681FBA21EB24D9002417AB /* ViewModel */,
+				8C681FB921EB24D1002417AB /* Model */,
+				8C681FB821EB24B4002417AB /* View */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		8C681FB221EB21FE002417AB /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8C681FB321EB2268002417AB /* TWRequestManager.h */,
+				8C681FB421EB2268002417AB /* TWRequestManager.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		8C681FB821EB24B4002417AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C681FD921EB2E2B002417AB /* TWCommentCell.h */,
+				8C681FDA21EB2E2B002417AB /* TWCommentCell.m */,
+				8C681FDE21EB3164002417AB /* TWCommentGroundView.h */,
+				8C681FDF21EB3164002417AB /* TWCommentGroundView.m */,
+				8C681FE321EB3379002417AB /* TWTweetCell.h */,
+				8C681FE421EB3379002417AB /* TWTweetCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C681FB921EB24D1002417AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C681FC021EB2707002417AB /* TWSenderModel.h */,
+				8C681FC121EB2707002417AB /* TWSenderModel.m */,
+				8C681FC521EB27D0002417AB /* TWCommentModel.h */,
+				8C681FC621EB27D0002417AB /* TWCommentModel.m */,
+				8C681FCA21EB2809002417AB /* TWTweetModel.h */,
+				8C681FCB21EB2809002417AB /* TWTweetModel.m */,
+				8C681FCF21EB2855002417AB /* TWUserInfoModel.h */,
+				8C681FD021EB2855002417AB /* TWUserInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C681FBA21EB24D9002417AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8C681FBB21EB2526002417AB /* TWMomentsViewModel.h */,
+				8C681FBC21EB2526002417AB /* TWMomentsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CA2976F21E9D70C006B5B67 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				8C681FB221EB21FE002417AB /* NetWork */,
+				8CA2977021E9D9B5006B5B67 /* Messages */,
+				8CA2977221E9D9E9006B5B67 /* Contacts */,
+				8CA2977321E9DA15006B5B67 /* Discover */,
+				8CA2977421E9DA20006B5B67 /* Me */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		8CA2977021E9D9B5006B5B67 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2978121E9E5ED006B5B67 /* TWMessagesController.h */,
+				8CA2978221E9E5ED006B5B67 /* TWMessagesController.m */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		8CA2977221E9D9E9006B5B67 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2978621E9E601006B5B67 /* TWContactsController.h */,
+				8CA2978721E9E601006B5B67 /* TWContactsController.m */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		8CA2977321E9DA15006B5B67 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2978B21E9E614006B5B67 /* TWDiscoverController.h */,
+				8CA2978C21E9E614006B5B67 /* TWDiscoverController.m */,
+				8C681FAC21EB11C9002417AB /* Moments */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		8CA2977421E9DA20006B5B67 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2979021E9E623006B5B67 /* TMMeController.h */,
+				8CA2979121E9E623006B5B67 /* TMMeController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8CA2977A21E9DEAC006B5B67 /* TWBase */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2977521E9DCFE006B5B67 /* TWTabBarController.h */,
+				8CA2977621E9DCFE006B5B67 /* TWTabBarController.m */,
+				8CA2977B21E9DEF2006B5B67 /* TWNavigationController.h */,
+				8CA2977C21E9DEF2006B5B67 /* TWNavigationController.m */,
+			);
+			path = TWBase;
+			sourceTree = "<group>";
+		};
+		8CA2979521E9F067006B5B67 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2979621E9F091006B5B67 /* TWMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		8CA2979721E9FAAE006B5B67 /* TWWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				8CA2979821E9FB0B006B5B67 /* TWDownloadOperation.h */,
+				8CA2979921E9FB0B006B5B67 /* TWDownloadOperation.m */,
+				8CA297AC21EA3571006B5B67 /* UIView+TWCacheOperation.h */,
+				8CA297AD21EA3571006B5B67 /* UIView+TWCacheOperation.m */,
+				8C681F9D21EAFB94002417AB /* TWDownloader.h */,
+				8C681F9E21EAFB94002417AB /* TWDownloader.m */,
+				8C681FA221EAFDEE002417AB /* TWImageManager.h */,
+				8C681FA321EAFDEE002417AB /* TWImageManager.m */,
+				8C681FA721EB0BBE002417AB /* UIImageView+TWWebCache.h */,
+				8C681FA821EB0BBE002417AB /* UIImageView+TWWebCache.m */,
+			);
+			path = TWWebImage;
+			sourceTree = "<group>";
+		};
+		A2FA1EA9C6F4E9D87B86AF53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A5A27BC0F2DED9FE031A6 /* libPods-ThoughtWorksHomeWork.a */,
+				AE811786BB329C49C5D3CB59 /* libPods-ThoughtWorksHomeWorkTests.a */,
+				C9E5691F494CAC226AC4EE31 /* libPods-ThoughtWorksHomeWorkUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2CA6DB21E9B0A10035A29D /* ThoughtWorksHomeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2CA70821E9B0A10035A29D /* Build configuration list for PBXNativeTarget "ThoughtWorksHomeWork" */;
+			buildPhases = (
+				E32A0241889C42BE166E6FF8 /* [CP] Check Pods Manifest.lock */,
+				8C2CA6D821E9B0A10035A29D /* Sources */,
+				8C2CA6D921E9B0A10035A29D /* Frameworks */,
+				8C2CA6DA21E9B0A10035A29D /* Resources */,
+				94034FEA80574459FBF75ED1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThoughtWorksHomeWork;
+			productName = ThoughtWorksHomeWork;
+			productReference = 8C2CA6DC21E9B0A10035A29D /* ThoughtWorksHomeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C2CA6F321E9B0A10035A29D /* ThoughtWorksHomeWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2CA70B21E9B0A10035A29D /* Build configuration list for PBXNativeTarget "ThoughtWorksHomeWorkTests" */;
+			buildPhases = (
+				215EE8227EDCEBF30E59D4B2 /* [CP] Check Pods Manifest.lock */,
+				8C2CA6F021E9B0A10035A29D /* Sources */,
+				8C2CA6F121E9B0A10035A29D /* Frameworks */,
+				8C2CA6F221E9B0A10035A29D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2CA6F621E9B0A10035A29D /* PBXTargetDependency */,
+			);
+			name = ThoughtWorksHomeWorkTests;
+			productName = ThoughtWorksHomeWorkTests;
+			productReference = 8C2CA6F421E9B0A10035A29D /* ThoughtWorksHomeWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C2CA6FE21E9B0A10035A29D /* ThoughtWorksHomeWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2CA70E21E9B0A10035A29D /* Build configuration list for PBXNativeTarget "ThoughtWorksHomeWorkUITests" */;
+			buildPhases = (
+				57DCF5CF96C717D280D23102 /* [CP] Check Pods Manifest.lock */,
+				8C2CA6FB21E9B0A10035A29D /* Sources */,
+				8C2CA6FC21E9B0A10035A29D /* Frameworks */,
+				8C2CA6FD21E9B0A10035A29D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2CA70121E9B0A10035A29D /* PBXTargetDependency */,
+			);
+			name = ThoughtWorksHomeWorkUITests;
+			productName = ThoughtWorksHomeWorkUITests;
+			productReference = 8C2CA6FF21E9B0A10035A29D /* ThoughtWorksHomeWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C2CA6D421E9B0A10035A29D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jackie;
+				TargetAttributes = {
+					8C2CA6DB21E9B0A10035A29D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8C2CA6F321E9B0A10035A29D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8C2CA6DB21E9B0A10035A29D;
+					};
+					8C2CA6FE21E9B0A10035A29D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8C2CA6DB21E9B0A10035A29D;
+					};
+				};
+			};
+			buildConfigurationList = 8C2CA6D721E9B0A10035A29D /* Build configuration list for PBXProject "ThoughtWorksHomeWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C2CA6D321E9B0A10035A29D;
+			productRefGroup = 8C2CA6DD21E9B0A10035A29D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2CA6DB21E9B0A10035A29D /* ThoughtWorksHomeWork */,
+				8C2CA6F321E9B0A10035A29D /* ThoughtWorksHomeWorkTests */,
+				8C2CA6FE21E9B0A10035A29D /* ThoughtWorksHomeWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C2CA6DA21E9B0A10035A29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2CA6EC21E9B0A10035A29D /* LaunchScreen.storyboard in Resources */,
+				8C2CA6E921E9B0A10035A29D /* Assets.xcassets in Resources */,
+				8C2CA6E721E9B0A10035A29D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2CA6F221E9B0A10035A29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2CA6FD21E9B0A10035A29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		215EE8227EDCEBF30E59D4B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThoughtWorksHomeWorkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57DCF5CF96C717D280D23102 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThoughtWorksHomeWorkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94034FEA80574459FBF75ED1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThoughtWorksHomeWork/Pods-ThoughtWorksHomeWork-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThoughtWorksHomeWork/Pods-ThoughtWorksHomeWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E32A0241889C42BE166E6FF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThoughtWorksHomeWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C2CA6D821E9B0A10035A29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA2979A21E9FB0B006B5B67 /* TWDownloadOperation.m in Sources */,
+				8C681FC221EB2707002417AB /* TWSenderModel.m in Sources */,
+				8C2CA6EF21E9B0A10035A29D /* main.m in Sources */,
+				8CA297AE21EA3571006B5B67 /* UIView+TWCacheOperation.m in Sources */,
+				8C681FE521EB3379002417AB /* TWTweetCell.m in Sources */,
+				8C681FE021EB3164002417AB /* TWCommentGroundView.m in Sources */,
+				8CA2978D21E9E614006B5B67 /* TWDiscoverController.m in Sources */,
+				8C681FA421EAFDEE002417AB /* TWImageManager.m in Sources */,
+				8CA2979221E9E623006B5B67 /* TMMeController.m in Sources */,
+				8CA2977721E9DCFE006B5B67 /* TWTabBarController.m in Sources */,
+				8CA2977D21E9DEF2006B5B67 /* TWNavigationController.m in Sources */,
+				8CA2978821E9E601006B5B67 /* TWContactsController.m in Sources */,
+				8C681FC721EB27D0002417AB /* TWCommentModel.m in Sources */,
+				8C681FD121EB2855002417AB /* TWUserInfoModel.m in Sources */,
+				8C681FBD21EB2526002417AB /* TWMomentsViewModel.m in Sources */,
+				8C681FA921EB0BBE002417AB /* UIImageView+TWWebCache.m in Sources */,
+				8C681FDB21EB2E2B002417AB /* TWCommentCell.m in Sources */,
+				8C681FCC21EB2809002417AB /* TWTweetModel.m in Sources */,
+				8CA2978321E9E5ED006B5B67 /* TWMessagesController.m in Sources */,
+				8C681FB521EB2268002417AB /* TWRequestManager.m in Sources */,
+				8C681F9F21EAFB94002417AB /* TWDownloader.m in Sources */,
+				8C2CA6E121E9B0A10035A29D /* AppDelegate.m in Sources */,
+				8C681FAF21EB11F5002417AB /* TWMomentsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2CA6F021E9B0A10035A29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C681FE621EB3379002417AB /* TWTweetCell.m in Sources */,
+				8CA2978421E9E5ED006B5B67 /* TWMessagesController.m in Sources */,
+				8CA2977E21E9DEF2006B5B67 /* TWNavigationController.m in Sources */,
+				8CA2978921E9E601006B5B67 /* TWContactsController.m in Sources */,
+				8CA2977821E9DCFE006B5B67 /* TWTabBarController.m in Sources */,
+				8CA2979B21E9FB0B006B5B67 /* TWDownloadOperation.m in Sources */,
+				8C681FA021EAFB94002417AB /* TWDownloader.m in Sources */,
+				8C681FE121EB3164002417AB /* TWCommentGroundView.m in Sources */,
+				8C2CA6F921E9B0A10035A29D /* ThoughtWorksHomeWorkTests.m in Sources */,
+				8C681FD221EB2855002417AB /* TWUserInfoModel.m in Sources */,
+				8C681FC321EB2707002417AB /* TWSenderModel.m in Sources */,
+				8C681FAA21EB0BBE002417AB /* UIImageView+TWWebCache.m in Sources */,
+				8CA297AF21EA3571006B5B67 /* UIView+TWCacheOperation.m in Sources */,
+				8C681FC821EB27D0002417AB /* TWCommentModel.m in Sources */,
+				8CA2979321E9E623006B5B67 /* TMMeController.m in Sources */,
+				8C681FB621EB2268002417AB /* TWRequestManager.m in Sources */,
+				8CA2978E21E9E614006B5B67 /* TWDiscoverController.m in Sources */,
+				8C681FCD21EB2809002417AB /* TWTweetModel.m in Sources */,
+				8C681FDC21EB2E2B002417AB /* TWCommentCell.m in Sources */,
+				8C681FBE21EB2526002417AB /* TWMomentsViewModel.m in Sources */,
+				8C681FB021EB11F5002417AB /* TWMomentsController.m in Sources */,
+				8C681FA521EAFDEE002417AB /* TWImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2CA6FB21E9B0A10035A29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C681FE721EB3379002417AB /* TWTweetCell.m in Sources */,
+				8CA2978521E9E5ED006B5B67 /* TWMessagesController.m in Sources */,
+				8CA2977F21E9DEF2006B5B67 /* TWNavigationController.m in Sources */,
+				8CA2978A21E9E601006B5B67 /* TWContactsController.m in Sources */,
+				8CA2977921E9DCFE006B5B67 /* TWTabBarController.m in Sources */,
+				8CA2979C21E9FB0B006B5B67 /* TWDownloadOperation.m in Sources */,
+				8C681FA121EAFB94002417AB /* TWDownloader.m in Sources */,
+				8C681FE221EB3164002417AB /* TWCommentGroundView.m in Sources */,
+				8C2CA70421E9B0A10035A29D /* ThoughtWorksHomeWorkUITests.m in Sources */,
+				8C681FD321EB2855002417AB /* TWUserInfoModel.m in Sources */,
+				8C681FC421EB2707002417AB /* TWSenderModel.m in Sources */,
+				8C681FAB21EB0BBE002417AB /* UIImageView+TWWebCache.m in Sources */,
+				8CA297B021EA3571006B5B67 /* UIView+TWCacheOperation.m in Sources */,
+				8C681FC921EB27D0002417AB /* TWCommentModel.m in Sources */,
+				8CA2979421E9E623006B5B67 /* TMMeController.m in Sources */,
+				8C681FB721EB2268002417AB /* TWRequestManager.m in Sources */,
+				8CA2978F21E9E614006B5B67 /* TWDiscoverController.m in Sources */,
+				8C681FCE21EB2809002417AB /* TWTweetModel.m in Sources */,
+				8C681FDD21EB2E2B002417AB /* TWCommentCell.m in Sources */,
+				8C681FBF21EB2526002417AB /* TWMomentsViewModel.m in Sources */,
+				8C681FB121EB11F5002417AB /* TWMomentsController.m in Sources */,
+				8C681FA621EAFDEE002417AB /* TWImageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C2CA6F621E9B0A10035A29D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C2CA6DB21E9B0A10035A29D /* ThoughtWorksHomeWork */;
+			targetProxy = 8C2CA6F521E9B0A10035A29D /* PBXContainerItemProxy */;
+		};
+		8C2CA70121E9B0A10035A29D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C2CA6DB21E9B0A10035A29D /* ThoughtWorksHomeWork */;
+			targetProxy = 8C2CA70021E9B0A10035A29D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C2CA6E521E9B0A10035A29D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2CA6E621E9B0A10035A29D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C2CA6EA21E9B0A10035A29D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2CA6EB21E9B0A10035A29D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C2CA70621E9B0A10035A29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C2CA70721E9B0A10035A29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C2CA70921E9B0A10035A29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3389B9E5D001CD61FD3D3982 /* Pods-ThoughtWorksHomeWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = ThoughtWorksHomeWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.ThoughtWorksHomeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C2CA70A21E9B0A10035A29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E784C5D0377B1ADDB8E9FA08 /* Pods-ThoughtWorksHomeWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = ThoughtWorksHomeWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.ThoughtWorksHomeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C2CA70C21E9B0A10035A29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0874F383A7F15A758FC39D08 /* Pods-ThoughtWorksHomeWorkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				INFOPLIST_FILE = ThoughtWorksHomeWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.ThoughtWorksHomeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThoughtWorksHomeWork.app/ThoughtWorksHomeWork";
+			};
+			name = Debug;
+		};
+		8C2CA70D21E9B0A10035A29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B4389443C88D308C41D8EC /* Pods-ThoughtWorksHomeWorkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				INFOPLIST_FILE = ThoughtWorksHomeWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.ThoughtWorksHomeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThoughtWorksHomeWork.app/ThoughtWorksHomeWork";
+			};
+			name = Release;
+		};
+		8C2CA70F21E9B0A10035A29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4D4B6BFD7197C66D3F4136 /* Pods-ThoughtWorksHomeWorkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				INFOPLIST_FILE = ThoughtWorksHomeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.ThoughtWorksHomeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThoughtWorksHomeWork;
+			};
+			name = Debug;
+		};
+		8C2CA71021E9B0A10035A29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AA4F812A7F973F28D066D0 /* Pods-ThoughtWorksHomeWorkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3XM8HWY9B;
+				INFOPLIST_FILE = ThoughtWorksHomeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvmining.ThoughtWorksHomeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThoughtWorksHomeWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C2CA6D721E9B0A10035A29D /* Build configuration list for PBXProject "ThoughtWorksHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2CA70621E9B0A10035A29D /* Debug */,
+				8C2CA70721E9B0A10035A29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2CA70821E9B0A10035A29D /* Build configuration list for PBXNativeTarget "ThoughtWorksHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2CA70921E9B0A10035A29D /* Debug */,
+				8C2CA70A21E9B0A10035A29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2CA70B21E9B0A10035A29D /* Build configuration list for PBXNativeTarget "ThoughtWorksHomeWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2CA70C21E9B0A10035A29D /* Debug */,
+				8C2CA70D21E9B0A10035A29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2CA70E21E9B0A10035A29D /* Build configuration list for PBXNativeTarget "ThoughtWorksHomeWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2CA70F21E9B0A10035A29D /* Debug */,
+				8C2CA71021E9B0A10035A29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C2CA6D421E9B0A10035A29D /* Project object */;
+}
